@@ -1,9 +1,10 @@
 import React from 'react'
+import S from './ProductCard.module.css'
 
 const ProductCard = ( { name, description, listPrice, salePrice, installment } ) => {
   return (
-    <div>
-        <div>
+    <div className={S.containerCard}>
+        <div className={S.containerImg}>
             <img src="" alt="" />
         </div>
         <h4>{ name }</h4>
