@@ -9,9 +9,9 @@ const ProductCard = ( { img, name, description, listPrice, salePrice, installmen
         </div>
         <h4>{ name }</h4>
         <p>{ description }</p>
-        <p>De: { listPrice }</p>
-        <p>Por: { salePrice }</p>
-        <p>ou { installment } x de { value }</p>
+        <p>De: R$ { listPrice }</p>
+        <p>Por: R$ { salePrice }</p>
+        <p>ou { installment } x de R$ { value }</p>
         <button type='button'>Comprar</button>
     </div>
   )
